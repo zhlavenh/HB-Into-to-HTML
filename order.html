@@ -1,35 +1,72 @@
-Order a Melongram
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order a Melongram</title>
+</head>
+<body>
+    <h1>Order a Melogram</h1>
 
-There's no better way to show a loved one you care than with a Melongram.
+    <p>There's no better way to show a loved one you care than with a Melongram.</p>
+    
+    <p>Each Melongram comes with a custom message printed on high-quality cardstock
+and your choice of a hand-picked, premium melon.</p>
 
-Each Melongram comes with a custom message printed on high-quality cardstock
-and your choice of a hand-picked, premium melon.
+    <h2>Melon Options</h2>
 
-Melon Options
+    <p>
+        <table>
+         <tr>
+            <td>Watermelon</td>
+            <td>$1,200.00</td>
+         </tr>
+         <tr>
+            <td>Canteloupe</td>
+            <td>$400.00</td>
+         </tr>
+         <tr>
+            <td>Honeydew</td>
+            <td>$1,750.00</td>
+         </tr>
+        </table>
+    </p>
 
-Choose from one of these melons:
+    <h2>Order Form</h2>
 
-Watermelon $1,200.00
-Canteloupe $400.00
-Honeydew $1,750.00
+    <form>
+        <input type="text" name="recipient">
 
-Order Form
+        <p>Choose a melon</p>
+        <select name="melon">
+            <option value="watermelon">Watermelon</option>
+            <option value="canteloupe">Canteloupe</option>
+            <option value="honeydew">Honeydew</option>
+        </select>
 
-Your name
+        <p>When should we deliver?</p>
+            <input type="radio" name="Time" value="am">Morning
+            <input type="radio" name="Time" value="pm"> Evening
+            <input type="radio" name="Time" value="any"> Any time
 
-Who are we sending this to?
+        <p>Enter your message:</p>
+            <textarea name="message"></textarea>
 
-Choose a melon
-Watermelon
-Canteloupe
-Honeydew
+        <p>Subscribe to our newsletter</p>
+        <input type="checkbox" name="subscribe" value="yes">
 
-When should we deliver?
-Morning
-Evening
-Any time
+        <input type="submit">
 
-Enter your message:
+    </form>
+</body>
+</html>
 
-Subscribe to our newsletter
-Yes
+
+
+
+
+
+
+
+
